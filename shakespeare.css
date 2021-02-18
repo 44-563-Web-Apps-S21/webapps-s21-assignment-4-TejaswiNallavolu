@@ -64,3 +64,34 @@ tr:nth-child(even){
     border-bottom: 2px solid black;
 
 }
+img{
+    width:200px;
+    height:200px;
+    margin-left: 50px;
+    border-radius: 35px;
+}
+.bar{
+    list-style-type:circle;
+    margin: 0;
+    padding: 0;
+    
+}
+.bar li{
+    float: left;
+    background: rgb(241, 174, 211);
+}
+.bar a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: rgb(197, 155, 155);
+}
+.fa{
+    margin-right:2px;
+}
+.bar a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border-radius: 5px;
+}
