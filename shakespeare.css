@@ -1,0 +1,65 @@
+.speech{
+font-family: "Times New Roman", Times, serif;
+font-size: 15px;
+color: black;
+}
+.stage-direction{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: darkgray; 
+    display: inline;
+}
+.stage-direction:hover{
+    color: rgb(224, 49, 195);
+background-color: rgb(109, 241, 68);
+display: inline;
+}
+.name{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 15px;
+    color: black;
+}
+.miranda{
+    color: violet;
+}
+.prospero{
+    color:orange;
+}
+table{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+table,td,th{
+    border: 3px solid rgb(110, 250, 215);
+    border-collapse: collapse;
+}
+td,th{
+    padding: 20px;
+
+}
+th{
+    background-color: rgb(151, 139, 172);
+    text-decoration: underline;
+    color: whitesmoke;
+    font-size: large;
+}
+td{
+    color: rgb(221, 58, 29);
+    margin: 5px;
+}
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+.name:hover{
+    text-shadow: 1px 15px 5px black;
+    border-radius: 5px;
+    padding: 15px;
+    border-top: 2px solid #123456;
+    border-left: 10px solid #123456;
+    border-right: 10px solid #123455;
+    border-bottom-width: 50px;
+    border-bottom-style: ridge;
+    border-bottom: 2px solid black;
+}
